@@ -1,70 +1,145 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📖 About the Project](#about-project)
+- [🛠 Built With](#built-with)
+  - [Tech Stack](#tech-stack)
+- [Key Features](#key-features)
+- [🚀 Back-end Link](#back-end-link)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+- [👥 Authors](#authors)
+  - [🤝 Contributing](#contributing)
+  - [⭐️ Show your support](#support)
+  - [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-In the project directory, you can run:
 
-### `npm start`
+# Hello-React-Front-End
+This is a web application that displays random greetings using an api endpoint.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 🛠 Built With <a name="built-with"></a>
+ > This project was built with; 
+- HTML 
+- CSS
+- Javascript
+- React
+- Redux
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Tech Stack <a name="tech-stack"></a>
+> ### Technologies used 
+- GitHub 
+- Visual Studio Code 
+- GitBash
 
-### `npm test`
+<details> 
+<summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Key Features <a name="key-features"></a>
+- **Displays ramdom greetings**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Back-end Link <a href="back-end-link"></a>
+> Here is a link (https://github.com/yetemegn-telaye/hello-rails-back-end.git) to the Back-end.
+
+
+
+# 💻 Getting Started <a name="getting-started"></a>
+> In order to use the project files, Kindly follow these steps:
+
+## Steps
+- To clone the project select the desired directory in cmd and run: `git clone https://github.com/yetemegn-telaye/hello-react-front-end.git`
+- Install npm dependencies: `npm install`
+- To check the live preview: `npm run start`
+- For StyLint test, run: `npx stylelint "**/*.{css,scss}"`
+- For WebHint test, run: `npx hint .`
+- For EsLint test, run: `npx eslint .`
+
+## Prerequisites
+- Have basic level knowledge about HTML/CSS/JS/ES6/React/Redux
+- Have basic level knowledge about linters/Webpack
+- Have basic level knowledge about the working of website
+
+### Setup
+1. Download the **Zip** file or clone the repo with:
+```bash
+git clone https://github.com/yetemegn-telaye/hello-react-front-end.git
+```
+2. To access cloned directory run:
+```bash
+cd hello-react-front-end
+
+
+
+### Install
+> To install linters, react and other project's dependencies run:
+```bash
+npm install
+```
+## Run
+```bash
+1. To run this project :
+npm start
+2. open the urs localhost:3001 on your browser
+
+```
 
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm test`
 
-### `npm run eject`
+Launches the test runner in the interactive watch mode for React.\
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Run Test for Linters
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For tracking linter errors locally you need to follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. For tracking linter errors in HTML files run:
+```bash 
+npx hint .
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. For tracking linter errors in CSS or SASS files run:
 
-## Learn More
+```bash
+npx stylelint "\*_/_.{css,scss}"
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. For tracking linter errors in JavaScript files run:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npx eslint .
+```
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **Yetemegn Lemma**
 
-### Analyzing the Bundle Size
+[GitHub](https://github.com/yetemegn-telaye) | [Twitter](https://twitter.com/Yetemegn19) | [LinkedIn](linkedin.com/in/yetemegn-lemma)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## ⭐️ Show your support <a name="support"></a>
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🙏 🙏 Acknowledgments <a name="acknowledgements"></a>
+- I would like to thank [@microverseinc](https://github.com/microverseinc) for the templates and insights 
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 📝 License <a name="license"></a>
 
-### Deployment
+This project is [MIT](https://github.com/yetemegn-telaye/hello-react-front-end/blob/setup-project/LICENSE) licensed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
