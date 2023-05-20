@@ -1,0 +1,23 @@
+.greet-div {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin: 0 auto;
+}
+
+.greet-div button {
+  background-color: #287c25;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 1rem;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+}
+
+.greet-div button:hover {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
